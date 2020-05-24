@@ -58,7 +58,13 @@ body {
 }
 
 .header__logo {
-    padding: 88px 0 50px;
+    padding: 10px 0 5px;
+}
+
+.logo__link-img{
+    position: relative;
+    display: block;
+    max-width: 120px;
 }
 
 .menu {
@@ -441,7 +447,7 @@ body {
 /* ABOUT */
 
 .about {
-    background-color: #000000;
+    background-color: #8c8c8c;
     color: #FFFFFF;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -780,10 +786,10 @@ body {
 
 @media (max-width: 768px){
     .header__logo {
-        padding: 40px 0 30px;
+        padding: 5px 0 5px;
     }
     .logo__link-img {
-        max-width: 250px;
+        max-width: 120px;
     }
     .menu__list-link {
         padding: 24px 10px 28px;
