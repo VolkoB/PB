@@ -290,15 +290,16 @@ body {
 
 .popular__inner {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     justify-content: space-between;
-    padding: 100px 0;
+    padding: 25px 0;
 }
 
 .popular__img {
-    width: 280px;
-    height: 280px;
-    border-radius: 50%;
+    /* width: 280px; */
+    height: 450px; 
+    margin-top: 40px;
+    border-radius: 90%;
     object-fit: cover;
     transition: .5s ease-in-out;
 }
